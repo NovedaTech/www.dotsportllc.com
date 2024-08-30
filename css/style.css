@@ -1,0 +1,260 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	color: #333;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.5rem;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	-webkit-text-stroke: initial;
+	font-language-override: normal;
+	font-kerning: auto;
+	font-feature-settings: 'kern', 'liga'0, 'dlig'0, 'hlig'0, 'cswh'0;
+	/*font-synthesis: weight style;*/
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.intro {
+	padding: 3rem 0;
+	color: #ffffff;
+	background-color: #272a2d;
+	background-image: linear-gradient(#272a2d, #2e3846);
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 3rem;
+	overflow: auto;
+}
+.intro .flaw {
+	width: 528px;
+	margin: 0 auto;
+}
+.intro .flaw h1 {
+	font-size: 3rem;
+	font-family: 'Source Serif Pro', serif;
+	margin-bottom: 23px;
+	float: left;
+	width: 100%;
+}
+.intro .flaw p {
+	font-size: 16px;
+	margin-bottom: 1.5rem;
+}
+.intro .video {
+	float: left;
+	display: block;
+	width: 100%;
+	margin-left: 4px;
+	margin-right: 4px;
+	display: block;
+	position: relative;
+	cursor: pointer;
+	line-height: 0;
+	margin-bottom: 2.25rem;
+}
+.alin_box {
+	position: absolute;
+	max-width: 964px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: block;
+	margin: 0 10px;
+}
+.close {
+	position: absolute;
+	top: 18px;
+	right: 18px;
+	width: 35px;
+	cursor: pointer;
+}
+.video-box {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	left: 0px;
+	top: 0px;
+	z-index: 999;
+	text-align: center;
+	bottom: 0px;
+	right: 0px;
+	display: none;
+}
+video {
+	max-width: 964px;
+}
+.intro .video svg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.intro .video img {
+	width: 100%;
+	height: auto;
+}
+.sticky-navigation {
+	left: 50%;
+	position: absolute;
+	display: block;
+	width: 198px;
+	margin-left: -792px;
+}
+.sticky-navigation.stuck {
+	position: fixed;
+	top: 0;
+	padding-top: 48px;
+	padding-bottom: 10px;
+	display: block;
+}
+.sticky-wrapper {
+	height: 0px !important;
+}
+.section-nav li {
+	line-height: 2.25rem;
+	list-style-type: none;
+}
+nav li a {
+	background-size: 0;
+	text-shadow: none;
+	text-decoration: none;
+	color: #333;
+}
+.company-sections {
+	width: 528px;
+	margin: 0 auto;
+}
+.company-sections p {
+	margin-bottom: 1.5rem;
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+}
+.company-sections h1 {
+	font-family: 'Source Serif Pro';
+	font-weight: 400;
+	font-size: 2.25rem;
+	line-height: 3.25rem;
+	margin-top: 3rem;
+	margin-bottom: 1.5rem;
+}
+.company-sections .sport-about p {
+	margin-bottom: 1.5rem;
+	font-size: 1rem;
+}
+.company-sections h4 {
+	font-weight: 700;
+}
+.clear-fix {
+	clear: both;
+}
+.mg-t-b {
+	margin-top: 0.25rem;
+	margin-bottom: 0.75rem;
+}
+.img-lft {
+	max-height: 400px;
+	float: left;
+	margin: 1rem 2rem 3rem 0;
+	border-bottom: 1px solid #ccc;
+}
+.person {
+	float: left;
+	margin-bottom: 1.5rem;
+}
+.person img {
+	width: 248px;
+	margin-left: 0;
+	margin-right: 8px;
+	margin-bottom: 15px;
+	float: left;
+}
+.person .name {
+	font-weight: 600;
+}
+.person .name, .team .person .title {
+	float: left;
+	display: block;
+}
+.person .title {
+	margin-bottom: 0.75rem;
+	float: left;
+	display: block;
+	margin-left: 9px;
+}
+.person .name, .team .person .title {
+	width: 248px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.person p {
+	float: left;
+	width: 100%;
+}
+.section-nav.sticky-navigation.shrink {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 50px;
+}
+@media (max-width: 1640px) {
+	.sticky-navigation {
+		left: 2%;
+		margin-left: 0%;
+	}
+}
+@media (max-width: 830px) {
+	.section-nav.sticky-navigation.shrink {
+		padding: 10px 0;
+	}
+	.sticky-navigation {
+		position: fixed;
+		top: 0px;
+		background: #fff;
+		width: 100%;
+		height: 37px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		left: 0px !important;
+		box-shadow: 0px 0px 8px #c2c2c2;
+	}
+	.section-nav li {
+		line-height: 2.25rem;
+		list-style-type: none;
+		float: left;
+		margin: 0 10px;
+	}
+	ul {
+		width: 249px;
+		margin: 0 auto;
+	}
+	.sticky-navigation.stuck {
+		height: 37px;
+		padding-top: 10px;
+	}
+	.header12 {
+		width: 100%;
+		height: 57px;
+		background: aqua;
+	}
+}
+@media (max-width: 568px) {
+	.company-sections, .intro .flaw {
+		width: 94%;
+		margin: 0px 3%;
+	}
+	.person .name, .team .person .title {
+		width: 100%;
+	}
+}
+@media (max-width: 991px) {
+	video {
+		max-width: 100%;
+	}
+}
